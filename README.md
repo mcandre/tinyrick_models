@@ -33,3 +33,4 @@ For more details on developing tinyrick_models itself, see [DEVELOPMENT.md](DEVE
 # SEE ALSO
 
 * [tinyrick](https://github.com/mcandre/tinyrick)
+* [tinyrick_macros](https://github.com/mcandre/tinyrick_macros)
