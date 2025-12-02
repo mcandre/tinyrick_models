@@ -6,35 +6,24 @@ use std::sync;
 /// Task models a development operation.
 pub type Task = Box<dyn Fn() + Send + Sync>;
 
-/// NOP_BOX performs no operations.
-pub static NOP_BOX: sync::LazyLock<Task> = sync::LazyLock::new(|| Box::new(|| ()));
-
-/// DEFAULT_TASK registers the default task.
-pub static DEFAULT_TASK: sync::LazyLock<sync::Mutex<Option<Task>>> =
+/// DEFAULT_TASK registers the default task name.
+pub static DEFAULT_TASK: sync::LazyLock<sync::Mutex<Option<&str>>> =
     sync::LazyLock::new(|| sync::Mutex::new(None));
 
 #[test]
 fn test_default_task() {
-    let x = sync::Arc::new(sync::Mutex::new(0));
-    let x_clone = sync::Arc::clone(&x);
-    let x_clone2 = sync::Arc::clone(&x);
+    let task_name = "increment";
 
     {
         let mut default_task_initial = DEFAULT_TASK.lock().unwrap();
         assert!(default_task_initial.is_none());
-        let task: Task = Box::new(move || {
-            let mut x = x_clone.lock().unwrap();
-            *x += 1;
-        });
-        *default_task_initial = Some(task);
+        *default_task_initial = Some(task_name);
     }
 
-    assert!(*x_clone2.lock().unwrap() == 0);
     let task_guard = DEFAULT_TASK.lock().unwrap();
     let task_option = task_guard.as_ref();
-    let task = task_option.unwrap_or(&*NOP_BOX);
-    task();
-    assert!(*x.lock().unwrap() == 1);
+    let task = task_option.unwrap_or(&"nop");
+    assert!(task == &"increment");
 }
 
 /// TASKS registers tasks by name.
