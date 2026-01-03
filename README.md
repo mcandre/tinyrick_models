@@ -1,5 +1,7 @@
 # tinyrick_models: Data models for development tasks
 
+[![Donate](https://img.shields.io/badge/GUMROAD-36a9ae?style=flat&logo=gumroad&logoColor=white)](https://mcandre.gumroad.com/)
+
 # ABOUT
 
 tinyrick_models provides data types and static variables for managing development tasks.
