@@ -5,7 +5,7 @@ tinyrick_models' own compilation process is compatible with standard `cargo`. We
 # BUILDTIME REQUIREMENTS
 
 * POSIX compliant [make](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/make.html)
-* [Rust](https://www.rust-lang.org/en-US/) 1.91.0+
+* [Rust](https://www.rust-lang.org/en-US/) 1.92.0+
 * Provision additional dev tools with `make -f install.mk`
 
 ## Recommended
