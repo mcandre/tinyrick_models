@@ -1,22 +1,10 @@
 # tinyrick_models: Data models for development tasks
 
-[![Donate](https://img.shields.io/badge/GUMROAD-36a9ae?style=flat&logo=gumroad&logoColor=white)](https://mcandre.gumroad.com/)
+[![Crates.io Downloads (latest version)](https://img.shields.io/crates/dv/tinyrick_models?label=crate%20downloads)](https://crates.io/crates/tinyrick_models) [![docs.rs](https://img.shields.io/docsrs/tinyrick_models)](https://docs.rs/tinyrick_models/latest/tinyrick_models/) [![license](https://img.shields.io/badge/license-BSD-3)](LICENSE.md) [![Donate](https://img.shields.io/badge/GUMROAD-36a9ae?style=flat&logo=gumroad&logoColor=white)](https://mcandre.gumroad.com/)
 
 # ABOUT
 
 tinyrick_models provides data types and static variables for managing development tasks.
-
-# CRATE
-
-https://crates.io/crates/tinyrick_models
-
-# API DOCUMENTATION
-
-https://docs.rs/tinyrick_models/latest/tinyrick_models/
-
-# LICENSE
-
-BSD-2-Clause
 
 # RUNTIME REQUIREMENTS
 
