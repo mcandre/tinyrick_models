@@ -1,6 +1,6 @@
 # tinyrick_models: Data models for development tasks
 
-[![Crates.io Downloads (recent)](https://img.shields.io/crates/dr/tinyrick_models?label=crate%20downloads)](https://crates.io/crates/tinyrick_models) [![docs.rs](https://img.shields.io/docsrs/tinyrick_models)](https://docs.rs/tinyrick_models/latest/tinyrick_models/) [![Test](https://github.com/mcandre/tinyrick_models/actions/workflows/test.yml/badge.svg)](https://github.com/mcandre/tinyrick_models/actions/workflows/test.yml) [![license](https://img.shields.io/badge/license-BSD-3)](LICENSE.md) [![Donate](https://img.shields.io/badge/GUMROAD-36a9ae?style=flat&logo=gumroad&logoColor=white)](https://mcandre.gumroad.com/)
+[![Crates.io Downloads (recent)](https://img.shields.io/crates/dr/tinyrick_models?label=crate%20downloads)](https://crates.io/crates/tinyrick_models) [![docs.rs](https://img.shields.io/docsrs/tinyrick_models)](https://docs.rs/tinyrick_models/latest/tinyrick_models/) [![Test](https://github.com/mcandre/tinyrick_models/actions/workflows/test.yml/badge.svg)](https://github.com/mcandre/tinyrick_models/actions/workflows/test.yml) [![license](https://img.shields.io/badge/license-BSD-3)](LICENSE.md) [![Donate](https://img.shields.io/badge/-any?logo=gumroad&label=Donate&color=grey)](https://mcandre.gumroad.com/)
 
 # ABOUT
 
