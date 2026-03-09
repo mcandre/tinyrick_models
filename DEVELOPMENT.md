@@ -1,6 +1,8 @@
-# OVERVIEW
+# DEVELOPMENT GUIDE
 
-tinyrick_models' own compilation process is compatible with standard `cargo`. We wrap some common workflows with `build` tasks for convenience.
+tinyrick_models follows standard, cargo based operations for compiling and unit testing Rust code.
+
+For advanced operations, such as linting, we further supplement with some software industry tools.
 
 # BUILDTIME REQUIREMENTS
 
@@ -10,9 +12,7 @@ tinyrick_models' own compilation process is compatible with standard `cargo`. We
 
 ## Recommended
 
-* a UNIX-like environment (e.g. [WSL](https://learn.microsoft.com/en-us/windows/wsl/))
 * [ASDF](https://asdf-vm.com/) 0.18 (run `asdf reshim` after provisioning)
-* [direnv](https://direnv.net/) 2
 
 # SECURITY AUDIT
 
