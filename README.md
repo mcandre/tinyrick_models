@@ -4,7 +4,7 @@
 
 # ABOUT
 
-tinyrick_models provides data types and static variables for managing development tasks.
+tinyrick_models provides data types and static variables to manage development tasks for the [tinyrick](https://github.com/mcandre/tinyrick) task runner.
 
 # SYSTEM REQUIREMENTS
 
@@ -17,8 +17,3 @@ tinyrick_models provides data types and static variables for managing developmen
 # DEVELOPMENT
 
 For details on developing tinyrick_models, see our [development guide](DEVELOPMENT.md).
-
-# SEE ALSO
-
-* [tinyrick](https://github.com/mcandre/tinyrick)
-* [tinyrick_macros](https://github.com/mcandre/tinyrick_macros)
